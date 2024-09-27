@@ -21,10 +21,10 @@
 
 ## 🔥 Github Stats
 
-<img align="right" width="46%" src="https://i.imgur.com/3yTCVeB.jpeg"/>
+<img align="right" width="45%" padding="0" src="https://i.imgur.com/3yTCVeB.jpeg"/>
 
-<a href="https://github.com/DippiBtw"><img width="48%" src="https://github-readme-stats.vercel.app/api?username=DippiBtw&theme=radical&title_color=ff3068?"></a>
+<a href="https://github.com/DippiBtw"><img width="47%" src="https://github-readme-stats.vercel.app/api?username=DippiBtw&theme=radical&title_color=ff3068?"></a>
 
-<a href="https://github.com/DippiBtw"><img width="48%" src="http://github-readme-streak-stats.herokuapp.com/?user=DippiBtw&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
+<a href="https://github.com/DippiBtw"><img width="47%" src="http://github-readme-streak-stats.herokuapp.com/?user=DippiBtw&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
 
-<img width="48%" src="https://i.imgur.com/TYAzYFO.gif">
+<img width="47%" src="https://i.imgur.com/TYAzYFO.gif">
