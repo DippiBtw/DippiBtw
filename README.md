@@ -27,4 +27,4 @@
 
 <a href="https://github.com/DippiBtw"><img width="47%" src="http://github-readme-streak-stats.herokuapp.com/?user=DippiBtw&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
 
-<img width="47%" src="https://i.imgur.com/TYAzYFO.gif">
+<img width="47%" src="https://i.imgur.com/F47dHbT.jpeg">
