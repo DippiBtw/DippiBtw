@@ -21,7 +21,7 @@
 
 ## 🔥 Github Stats
 
-<img align="right" width="43%" src="https://i.imgur.com/yTVDAjv.jpeg"/>
+<img align="right" width="42%" src="https://i.imgur.com/3yTCVeB.jpeg"/>
 
 <a href="https://github.com/DippiBtw"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=DippiBtw&theme=radical&title_color=ff3068?"></a>
 
