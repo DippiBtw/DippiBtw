@@ -1,6 +1,6 @@
 
 <div width="100%" height="250px" overflow="hidden">
-  <img width="100%" src="https://i.imgur.com/J6QqMHz.gif">
+  <img width="100%" src="https://i.imgur.com/Jlh8XL6.gif">
 </div>
 
 <br/>
@@ -21,7 +21,7 @@
 
 ## 🔥 Github Stats
 
-<img align="right" width="43%" src="https://i.imgur.com/7Fd8iPJ.jpeg"/>
+<img align="right" width="43%" src="https://i.imgur.com/yTVDAjv.jpeg"/>
 
 <a href="https://github.com/DippiBtw"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=DippiBtw&theme=radical&title_color=ff3068?"></a>
 
