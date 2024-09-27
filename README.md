@@ -1,5 +1,7 @@
 
-<img width="100%" src="https://i.imgur.com/J6QqMHz.gif">
+<div width="100%" height="250px" overflow="hidden">
+  <img width="100%" src="https://i.imgur.com/J6QqMHz.gif">
+</div>
 
 <br/>
 
@@ -19,10 +21,10 @@
 
 ## 🔥 Github Stats
 
-<img align="right" width="42%" src="https://i.imgur.com/7Fd8iPJ.jpeg"/>
+<img align="right" width="43%" src="https://i.imgur.com/7Fd8iPJ.jpeg"/>
 
-<a href="https://github.com/DippiBtw"><img width="55%" src="https://github-readme-stats.vercel.app/api?username=DippiBtw&theme=radical&title_color=ff3068?"></a>
+<a href="https://github.com/DippiBtw"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=DippiBtw&theme=radical&title_color=ff3068?"></a>
 
 <br/>
 
-<a href="https://github.com/DippiBtw"><img width="55%" src="http://github-readme-streak-stats.herokuapp.com/?user=DippiBtw&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
+<a href="https://github.com/DippiBtw"><img width="50%" src="http://github-readme-streak-stats.herokuapp.com/?user=DippiBtw&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
