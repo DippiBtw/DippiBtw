@@ -30,6 +30,6 @@
   <img width="47%" src="http://github-readme-streak-stats.herokuapp.com/?user=DippiBtw&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=00d9a1&fire=00d9a1&currStreakNum=ffffff&currStreakLabel=00d9a1&sideNums=00f0e0&sideLabels=00d9a1&dates=ffffff&stroke=00d9a1">
 </a>
 
-<br/>
+<p/>
 
 <img width="47%" src="https://i.imgur.com/PyOesgm.gif">
