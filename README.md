@@ -3,8 +3,8 @@
 👋 I'm a Computer Engineering student passionate about software development, web development, and innovative tech. I'm also a big Studio Ghibli fan, as you've probably noticed 🤓!
 
 - 🎓 Computer Engineering Student at [Royal Institute of Technology](https://www.kth.se/en)
+- 📫 Reach me at `riff.bravo <at> gmail.com`
 - 📍 Stockholm, Sweden
-- 📫 Reach me at riff.bravo@gmail.com
 
 ## 🔥 Github Stats
 
