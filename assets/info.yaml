@@ -1,0 +1,49 @@
+section-1:
+  - title: riff.bravo
+    custom:
+      uptime: 2003-11-06T00:00:00Z
+    content:
+      system:
+        os:
+          - Arch Linux
+          - iOS
+          - Windows 11
+        shell:
+          - Bash 5.3.0
+        window_manager:
+          - GNOME
+        ide:
+          - VSCode 1.102.1 (night-themed)
+      languages:
+        programming:
+          - Java
+          - Python
+          - Go
+          - C/C++
+        computer:
+          - TS/JS
+          - HTML/CSS
+          - SQL
+          - YAML
+          - JSON
+        real:
+          - Swedish
+          - English
+      hobbies:
+        digital:
+          - Gaming
+          - Programming
+        enjoy:
+          - Studio Ghibli
+          - Music
+
+section-2:
+  - title: contacts
+    content:
+      email:
+        personal: riff.bravo@gmail.com
+        school: riff@kth.se
+      socials:
+        linkedin: Riff Bravo
+        discord: "@dampodopulus"
+        github: DippiBtw

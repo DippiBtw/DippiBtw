@@ -1,0 +1,31 @@
+name: Update GitHub Stats SVG
+
+on:
+  workflow_dispatch: # manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.22
+
+      - name: Run Go program
+        run: go run main.go
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+          git add dark.svg
+          git add light.svg
+          git commit -m "Update SVG with GitHub stats" || echo "No changes to commit"
+          git push
