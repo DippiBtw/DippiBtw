@@ -3,9 +3,11 @@ package content
 import (
 	"bufio"
 	"fmt"
-	"log"
 	"os"
+	"path/filepath"
 	"strings"
+
+	"github.com/mskrha/svg2png"
 )
 
 type Body struct {
@@ -67,31 +69,64 @@ func (b *Body) String() string {
 }
 
 func (b *Body) WriteTemplate(templates ...string) error {
-	var files [][]byte
+	const filePerm = 0o644
 
-	for i, t := range templates {
-		file, err := os.ReadFile(t)
+	for _, t := range templates {
+		contentBytes, err := os.ReadFile(t)
 		if err != nil {
-			return err
+			return fmt.Errorf("reading template %q: %w", t, err)
 		}
-		files = append(files, file)
 
-		// fix names for writing
-		tmpArr := strings.Split(t, "/")
-		tmpStr := tmpArr[len(tmpArr)-1]
-		tmpArr = strings.Split(tmpStr, ".")
-		templates[i] = tmpArr[len(tmpArr)-2] + ".svg"
-	}
+		outputFile := filepath.Clean(getOutput(t, ".svg"))
 
-	for i, f := range files {
-		str := string(f)
-		str = strings.ReplaceAll(str, "{{content}}", b.String())
+		// Do not change input contentBytes; create a new string for replaced content
+		contentStr := string(contentBytes)
+		replaced := strings.ReplaceAll(contentStr, "{{content}}", b.String())
 
-		err := os.WriteFile(templates[i], []byte(str), 0644)
-		if err != nil {
-			log.Fatal(err)
+		if err := os.WriteFile(outputFile, []byte(replaced), filePerm); err != nil {
+			return fmt.Errorf("writing output file %q: %w", outputFile, err)
 		}
 	}
 
 	return nil
+}
+
+// REQUIRES INKSCAPE
+func (b *Body) ConvertSvgToPng(inkscapePath string, templates ...string) error {
+	const filePerm = 0o644
+
+	conv := svg2png.New()
+	if inkscapePath != "" {
+		conv.SetBinary(inkscapePath)
+	}
+
+	for _, t := range templates {
+		contentBytes, err := os.ReadFile(t)
+		if err != nil {
+			return fmt.Errorf("reading template %q: %w", t, err)
+		}
+
+		outputFile := filepath.Clean(getOutput(t, ".png"))
+
+		contentStr := string(contentBytes)
+		replaced := strings.ReplaceAll(contentStr, "{{content}}", b.String())
+
+		pngData, err := conv.Convert([]byte(replaced))
+		if err != nil {
+			return fmt.Errorf("converting SVG to PNG for %q: %w", t, err)
+		}
+
+		if err := os.WriteFile(outputFile, pngData, filePerm); err != nil {
+			return fmt.Errorf("writing PNG file %q: %w", outputFile, err)
+		}
+	}
+
+	return nil
+}
+
+func getOutput(str, suffix string) string {
+	tmpArr := strings.Split(str, "/")
+	tmpStr := tmpArr[len(tmpArr)-1]
+	tmpArr = strings.Split(tmpStr, ".")
+	return "output/" + tmpArr[len(tmpArr)-2] + suffix
 }

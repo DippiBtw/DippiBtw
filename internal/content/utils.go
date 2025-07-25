@@ -12,7 +12,7 @@ const repeat = "—"
 
 func addTitleLine(title string, maxLength int) string {
 	line := strings.Repeat(repeat, maxLength-len(title)-3)
-	return fmt.Sprintf(` <tspan class="title">%s</tspan>`, transform(line, prefix, suffix))
+	return fmt.Sprintf(`%s`, transform(line, prefix, suffix))
 }
 
 func transform(s, first, last3 string) string {

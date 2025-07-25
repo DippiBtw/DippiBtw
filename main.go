@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"log"
+	"runtime"
 	"strings"
 	"time"
 
@@ -55,7 +56,17 @@ func main() {
 
 	section2.AddParagraph("Updated " + time.Now().Format("Mon, Jan 2, 2006 at 15:04:05 MST"))
 
-	body.WriteTemplate("assets/dark.xhtml", "assets/light.xhtml")
+	templates := []string{"assets/dark.xhtml", "assets/light.xhtml"}
+	var inkscape string
+
+	if runtime.GOOS == "windows" {
+		inkscape = `C:\Program Files\Inkscape\bin\inkscape`
+	}
+
+	err = body.ConvertSvgToPng(inkscape, templates...)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
 
 func addMapOfArrays(part *content.Part, prefix string, m map[string][]string) {

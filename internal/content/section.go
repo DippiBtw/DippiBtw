@@ -58,7 +58,7 @@ func (s *Section) String() string {
 }
 
 func (s *Section) addTitle(title string) string {
-	ret := fmt.Sprintf("%s%s\n", tspanPos(s.x, s.y, "title", "- "+title), addTitleLine(title, s.maxLength))
+	ret := tspanPos(s.x, s.y, "title", fmt.Sprintf("- %s %s", title, addTitleLine(title, s.maxLength)))
 	s.y += 20
 	return ret
 }

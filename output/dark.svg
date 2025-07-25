@@ -80,8 +80,7 @@
 <tspan x="650" y="690">⣿⣿⣿⣿⣿⣿⠁⠀⡰⠃⠀⠐⠤⠂⠀⠀⠀⠀⠀⡟⠀⠀⠀⢀⠎⠀⠀⠀⢸⣿</tspan>
 </text>
 <text x="390" y="30" fill="#c9d1d9">
-<tspan x="390" y="30" class="title">- riff.bravo</tspan> <tspan class="title">-———————————————————————————————————————————-—-</tspan>
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">age</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">21 years, 8 months, 26 days</tspan>
+<tspan x="390" y="30" class="title">- riff.bravo -———————————————————————————————————————————-—-</tspan><tspan x="390" y="50" class="cc">. </tspan><tspan class="key">age</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">21 years, 8 months, 27 days</tspan>
 <tspan x="390" y="70" class="cc">. </tspan><tspan class="key"></tspan>:<tspan class="cc"> ....................................................... </tspan><tspan class="value"></tspan>
 <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">hobbies.digital</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Gaming, Programming</tspan>
 <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">hobbies.enjoy</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Studio Ghibli, Music</tspan>
@@ -96,20 +95,17 @@
 <tspan x="390" y="290" class="cc">. </tspan><tspan class="key">system.window_manager</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">GNOME</tspan>
 </text>
 <text x="15" y="370" fill="#c9d1d9">
-<tspan x="15" y="370" class="title">- contacts</tspan> <tspan class="title">-——————————————————————————————————————————————————-—-</tspan>
-<tspan x="15" y="390" class="cc">. </tspan><tspan class="key">email.personal</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">riff.bravo@gmail.com</tspan>
+<tspan x="15" y="370" class="title">- contacts -——————————————————————————————————————————————————-—-</tspan><tspan x="15" y="390" class="cc">. </tspan><tspan class="key">email.personal</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">riff.bravo@gmail.com</tspan>
 <tspan x="15" y="410" class="cc">. </tspan><tspan class="key">email.school</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">riff@kth.se</tspan>
 <tspan x="15" y="430" class="cc">. </tspan><tspan class="key"></tspan>:<tspan class="cc"> ............................................................ </tspan><tspan class="value"></tspan>
 <tspan x="15" y="450" class="cc">. </tspan><tspan class="key">socials.discord</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">@dampodopulus</tspan>
 <tspan x="15" y="470" class="cc">. </tspan><tspan class="key">socials.github</tspan>:<tspan class="cc"> ...................................... </tspan><tspan class="value">DippiBtw</tspan>
 <tspan x="15" y="490" class="cc">. </tspan><tspan class="key">socials.linkedin</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">Riff Bravo</tspan>
-<tspan x="15" y="530" class="title">- github.stats</tspan> <tspan class="title">-——————————————————————————————————————————————-—-</tspan>
-<tspan x="15" y="550" class="cc">. </tspan><tspan class="key">stat.commits</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">1,026</tspan>
+<tspan x="15" y="530" class="title">- github.stats -——————————————————————————————————————————————-—-</tspan><tspan x="15" y="550" class="cc">. </tspan><tspan class="key">stat.commits</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">1,028</tspan>
 <tspan x="15" y="570" class="cc">. </tspan><tspan class="key">stat.followers</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">12</tspan>
-<tspan x="15" y="590" class="cc">. </tspan><tspan class="key">stat.lines.of.code</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">218,043 ( <tspan class="addColor">244,359++</tspan>, <tspan class="delColor">26,316--</tspan> )</tspan>
+<tspan x="15" y="590" class="cc">. </tspan><tspan class="key">stat.lines.of.code</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">218,009 ( <tspan class="addColor">244,373++</tspan>, <tspan class="delColor">26,364--</tspan> )</tspan>
 <tspan x="15" y="610" class="cc">. </tspan><tspan class="key">stat.repos</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">17 { Contributed: 22 }</tspan>
 <tspan x="15" y="630" class="cc">. </tspan><tspan class="key">stat.stars</tspan>:<tspan class="cc"> ................................................. </tspan><tspan class="value">0</tspan>
-<tspan x="15" y="670" class="title">- Updated Thu, Jul 24, 2025 at 18:24:32 CEST</tspan> <tspan class="title">-————————————————-—-</tspan>
-</text>
+<tspan x="15" y="670" class="title">- Updated Fri, Jul 25, 2025 at 12:40:20 CEST -————————————————-—-</tspan></text>
 
 </svg>
