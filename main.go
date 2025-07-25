@@ -24,8 +24,8 @@ func main() {
 
 	body := content.New()
 
-	body.AddAsciiArt(30, 30, "assets/totoro.txt")
-	body.AddAsciiArt(650, 330, "assets/cursed.txt")
+	body.AddAsciiArt(50, 45, "assets/totoro.txt")
+	body.AddAsciiArt(650, 335, "assets/cursed.txt")
 
 	section1 := body.AddSection(390, 30, 60)
 	me := section1.AddParagraph(cfg.Section1[0].Title)
@@ -35,7 +35,7 @@ func main() {
 	addMapOfArrays(me, "languages", cfg.Section1[0].Content.Languages)
 	addMapOfArrays(me, "system", cfg.Section1[0].Content.System)
 
-	section2 := body.AddSection(15, 370, 65)
+	section2 := body.AddSection(30, 340, 65)
 	contacts := section2.AddParagraph(cfg.Section2[0].Title)
 	addMapOfStrings(contacts, "email", cfg.Section2[0].Content.Email)
 	addMapOfStrings(contacts, "socials", cfg.Section2[0].Content.Socials)

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mskrha/svg2png"
+	"github.com/DippiBtw/DippiBtw/internal/inkscape"
 )
 
 type Body struct {
@@ -43,7 +43,7 @@ func (b *Body) AddAsciiArt(x, y int, path string) error {
 		line := scanner.Text()
 		sb.WriteString(tspanPos(x, y, "", line))
 		sb.WriteString("\n")
-		y += 20
+		y += 17
 	}
 	sb.WriteString("</text>\n")
 
@@ -95,7 +95,7 @@ func (b *Body) WriteTemplate(templates ...string) error {
 func (b *Body) ConvertSvgToPng(inkscapePath string, templates ...string) error {
 	const filePerm = 0o644
 
-	conv := svg2png.New()
+	conv := inkscape.New()
 	if inkscapePath != "" {
 		conv.SetBinary(inkscapePath)
 	}
